@@ -1,0 +1,40 @@
+{
+  "name": "hw3week-7",
+  "version": "1.0.0",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.6",
+    "passport": "^0.5.2",
+    "passport-http": "^0.3.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 --exit"
+  },
+  "respository": {
+    "type": "git",
+    "url": "git+https://github.com/hodanyusuff/hw3.week-7.git"
+  },
+  "keywords": [
+    "movie"
+  ],
+  "author": "Hodan Yusuf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hodanyusuff/hw3.week-7.git/issues"
+  },
+  "homepage": "https://github.com/hodanyusuff/hw3.week-7#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.2.2"
+  }
+}
