@@ -5,13 +5,13 @@ var bcrypt = require('bcrypt-nodejs');
 mongoose.Promise = global.Promise;
 
 mongoose.connect(process.env.DB, { useNewUrlParser: true });
-mongoose.set('useCreateIndex', true);
+//mongoose.set('useCreateIndex', true);
 
 //user schema
 var UserSchema = new Schema( {
     name: String,
-    username: {type: string, required: true, index: { unique: true}},
-    password: { type: string, required: true, select: false }
+    username: {type: String, required: true, index: { unique: true}},
+    password: { type: String, required: true, select: false }
 });
 
 UserSchema.pre('save', function(next){
