@@ -8,12 +8,6 @@ chai.should();
 
 chai.use(chaiHttp);
 
-let login_details = {
-    name: "test",
-    username: 'email@email.com',
-    password: '123@abc'
-}
-
 describe('Register, Login and Call Movie with Basic Auth and JWT Auth', () => {
     beforeEach((done) => {
         //db.userList = [];
