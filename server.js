@@ -10,7 +10,7 @@ var authController = require('./auth');
 var authjwtController = require('./auth_jwt');
 var jwt = require('jsonwebtoken');
 var cors = require('cors');
-var User = require('./Users');
+var User = require('./users');
 
 require('dotenv').config({ path: './.env' });
 
